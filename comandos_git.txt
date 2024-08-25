@@ -17,4 +17,6 @@ cat nombredelarchivo : muestra el contenido del archivo
 Para traer los archivos de la rama B a la rama principal MAIN, tenemos que ubicarnos
 en la rama MAIN y escribir git merge nombredelarama (rama B).
 
+git push : para subir los cambios al github
+
 
