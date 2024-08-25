@@ -4,3 +4,4 @@ git init: inicia un repositorio en la carpeta actual donde nos encontremos
 ls -a: muestra carpetas y directorios
 git status: observar el estado del repositorio
 git add : añadir archivos al repositorio con nombre
+git commit -m "descripcion" : agregar comit al repositorio
