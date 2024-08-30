@@ -1,0 +1,142 @@
+<!DOCTYPE html>   
+<html lang="en">    
+<head>
+    <title>Pagina Luis Munoz</title>    <!--Nombre de la pagina web--> 
+
+    <style>                             
+        table, th, td {                   
+            border: 1px solid black; 
+        }
+    </style>          <!-- Agrega cuadricula a la tabla-->
+
+    <style>                             
+        h4{
+            background-color:brown ;
+        }
+    </style>        <!-- CSS segunda forma-->
+
+    <link rel="stylesheet" href="Estilos.css">
+
+
+</head>
+<body>
+
+    <div style="color: rgb(109, 197, 109);">            <!-- CSS 1ra forma -->
+        <h1 id="titulo "> Esta etiqueta (h1) es para subtitulos y sub sub titulos, de h1 a h6 y cada vez aparece mas pequeño </h1>
+    </div>
+
+    <p style="color: rgb(160, 44, 115);"> Esta etiqueta (p) sirve para escribir un parrafo seguido, si se quiere otro parrafo, se usa otra P </p> 
+
+    <p style="background: rgb(134, 86, 223);"> La etiqueta (br) sirve para <br> hacer un salto de linea para el texto. </p>
+
+    <hr> <!-- Se usa para separar cosas por medio de una linea -->
+    <h1> hipervinculos </h1>
+    <a href="https://www.google.com"> La etiqueta de (a) sirve para abrir hipervinculos en la misma pestaña de la pagina
+         web</a>
+    <br>
+    <a target="_blank" href="https://www.google.com"> Esta forma de (a) sirve para abrir un hipervinculo en una nueva pestaña </a>
+
+    <hr>
+    <h1> Imagenes </h1>
+    <h2> Eres el amor de mi vida, te amo. </h2>
+    <img src="imagenes/Amor.jpeg" height="500" />
+
+    <hr>
+    <h1> Formularios o recopilar informacion del usuario. </h1>
+
+    <form action="/formulario" method="get" style="background: rgb(197, 16, 16);">                                        <!-- form abre un campo para llenar texto-->
+        <label for="nombre">Nombre</label>        <!-- Label ayade un identificador al cuadro de texto-->
+
+        <input id="nombre" name="nombre" placeholder="su nombre" type="password"/>  <!-- for y id permiten dar click en el identificador
+                                                                     para escribir-->
+                                                  <!-- name indica la variable a un servidor, el contenido de la
+                                                   variable es lo que se escriba en el campo de texto de la pagina.-->
+                                                   <!-- placeholder indica lo que se debe escribir en el cuadro-->
+                                                    <!--type es el tipo de parametro del campo-->
+        <hr>
+        <label for="comentario">Texto largo</label>
+        <textarea rows="10" cols="20" name="texto" id="comentario" placeholder="escriba algo largo" >Valor por defecto</textarea>
+                                                    <!--rows y cols dan tamallo al cuadro de texto-->
+        <hr>
+        <input type="submit" />         <!--recolecta todos los datos digitados por el usuario-->
+
+        <hr>
+        <button type="submit">Boton de diferentes tipos, submit, reset o emviar</button> <!--Esta etiqueta de boton
+                                                            presenta diferentes tipos segun el requerimiento, mejor
+                                                            uso que la entrada input-->
+        <hr>
+    </form>
+
+    <h4>Lista no ordenada, no aparece enumeracion</h4>
+    <ul>                                 <!-- ul es lista no ordenada--> 
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <h4>Lista ordenada, aparece enumeracion</h4>
+    <ol>                                  <!-- ol es lista ordenada-->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+
+    <h4>una lista dentro de otra lista</h4>
+    <ol>
+        <li value 10>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub elemento 1 de elemento 3</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 2 de elemento 3</li>
+                <li style="list-style-type: lower-alpha;">Sub elemento 3 de elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
+    <h4>Tablas</h4>
+
+    <table style="width: 500px;">                  
+        <tr>                                                   <!-- indica filas-->
+            <th>Gastos </th>                                  <!-- indica las columnas--> 
+            <th>ingresos </th>
+        </tr>
+        <tr>
+            <th>Comida </th>
+            <th>Sueldo </th>
+        </tr>
+        <tr>
+            <th>Plan de entrenamiento </th>
+            <th>Asesorias </th>
+        </tr>
+        <tr>
+            <th>Apuestas en deportes </th>
+            <th>Parleys </th>
+        </tr>
+    </table>
+
+    <hr>
+    <header>                <!-- Se utiliza para agrupar links o logos de la pagina-->
+                            <!-- No se puede colocar una header dentro de otra header-->
+                            <!-- No se puede colocar una header dentro de una footer-->
+    </header> 
+
+    <hr>
+    <footer>                <!-- Se utiliza para poner el pie de pagina de la pagina web-->
+        <a href="#titulo">Ir al inicio al titulo, el id debe estar dentro de una etiqueta en header</a>
+        <a href="luizda750@gmail.com">Contactame aqui</a>
+    </footer>
+
+    <hr>
+    <section>               <!-- Se utiliza para definir secciones de la aplicacion-->
+                            <!-- se puede colocar dentro de header y dentro de footer-->
+    <article></article>     <!-- Definir contenido independiente, post, definicion imagenes-->                         
+    </section>
+
+</body>
+</html>
+
+
+
