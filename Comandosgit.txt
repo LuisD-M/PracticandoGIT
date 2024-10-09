@@ -1,9 +1,0 @@
-pwd: carpeta de donde se encuentra actualmente
-cd: para ir a una carpeta
-git init: inicia un repositorio en la carpeta actual donde nos encontremos
-ls -a: muestra carpetas y directorios
-git status: observar el estado del repositorio
-git add : añadir archivos al repositorio con nombre
-git commit -m "descripcion" : agregar comit al repositorio
-git rm nombre del archivo : eliminar el archivo, se debe agregar el cambio al stague (add)
-mv nombre inicial nombre final : cambia el nombre de los archivos
